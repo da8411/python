@@ -1,26 +1,16 @@
-import math
-def solution(fees, records):
-    answer = []
-    inTime = [0]*10000
-    isIn = [0]*10000
-    sumT = [0]*10000
+# 1부터 10,000까지 숫자 중 생성자가 있는 숫자를 제외한 셀프 넘버를 출력하는 문제
+# 생성자가 있는 숫자의 리스트(또는 집합)를 먼저 생성
+# 1부터 10,000까지의 숫자 범위에서 생성자가 있는 숫자를 제거
 
-    for record in records:
-        a, b, c = record.split()
-        h, m = a.split(":")
-        if c == "IN":
-            inTime[int(b)] = int(h)*60 + int(m)
-            isIn[int(b)] = 1
-        else:
-            sumT[int(b)] += (int(h)*60 + int(m)) - inTime[int(b)]
-            isIn[int(b)] = 0
-            
-    for i in range(10000):
-        if isIn[i] == 1:
-            sumT[i] += (23*60+59) - inTime[i]
-    
-    for i in range(10000):
-        if sumT[i] > 0:
-            answer.append(fees[1] + max(math.ceil((sumT[i]- fees[0])/fees[2]), 0) * fees[3])
+numbers = list(range(1, 10_001))
+remove_list = []  # 이후에 삭제할 숫자 list
+for num in numbers :
+    for n in str(num):
+        num += int(n)  # 생성자가 있는 숫자
+    if num <= 10_000:  # 10,000보다 작거나 같을 때만,
+        remove_list.append(num)  # append: 리스트에 요소를 추가할 때
 
-    return answer
+for remove_num in set(remove_list) :  # set 으로 중복값 제거
+    numbers.remove(remove_num)
+for self_num in numbers :  # 생성자가 있는 숫자를 삭제한 리스트
+    print(self_num)
