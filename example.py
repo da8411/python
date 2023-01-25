@@ -1,12 +1,19 @@
-def hansu(num) :
-    hansu_cnt = 0
-    for i in range(1, num+1):
-        num_list = list(map(int,str(i)))
-        if i < 100:
-            hansu_cnt += 1  # 100보다 작으면 모두 한수
-        elif num_list[0]-num_list[1] == num_list[1]-num_list[2]:
-            hansu_cnt += 1  # x의 각 자리가 등차수열이면 한수
-    return hansu_cnt
+def is_prime(n):
+    if n == 1:
+        return False
+    for j in range(2, int(n**0.5) + 1):
+        if n % j == 0:
+            return False
+    return True
 
-num = int(input())
-print(hansu(num))
+
+for _ in range(int(input())):
+    num = int(input())
+
+    a, b = num//2, num//2
+    while a > 0:
+        if is_prime(a) and is_prime(b):
+            print(a, b)
+        else:
+            a -= 1
+            b += 1
