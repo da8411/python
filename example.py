@@ -1,19 +1,16 @@
-def is_prime(n):
-    if n == 1:
-        return False
-    for j in range(2, int(n**0.5) + 1):
-        if n % j == 0:
-            return False
-    return True
+A, B = [], []
 
+N, M = map(int, input().split())
 
-for _ in range(int(input())):
-    num = int(input())
+for row in range(N):
+    row = list(map(int, input().split()))
+    A.append(row)
 
-    a, b = num//2, num//2
-    while a > 0:
-        if is_prime(a) and is_prime(b):
-            print(a, b)
-        else:
-            a -= 1
-            b += 1
+for row in range(N):
+    row = list(map(int, input().split()))
+    B.append(row)
+    
+for row in range(N):
+    for col in range(M):
+        print(A[row][col] + B[row][col], end=' ')
+    print()
