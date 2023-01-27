@@ -1,16 +1,17 @@
-A, B = [], []
-
-N, M = map(int, input().split())
-
-for row in range(N):
-    row = list(map(int, input().split()))
-    A.append(row)
-
-for row in range(N):
-    row = list(map(int, input().split()))
-    B.append(row)
-    
-for row in range(N):
-    for col in range(M):
-        print(A[row][col] + B[row][col], end=' ')
-    print()
+n = int(input())
+white_board = [[0] * 100 for _ in range(100)]
+ 
+for _ in range(n):
+    a, b = map(int, input().split())
+ 
+    for i in range(b, b + 10):
+        for j in range(a, a + 10):
+            white_board[i][j] = 1
+ 
+cnt = 0
+for i in range(100):
+    for j in range(100):
+        if white_board[i][j]:
+            cnt += 1
+ 
+print(cnt)
