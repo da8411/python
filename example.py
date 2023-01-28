@@ -1,17 +1,7 @@
-n = int(input())
-white_board = [[0] * 100 for _ in range(100)]
- 
-for _ in range(n):
-    a, b = map(int, input().split())
- 
-    for i in range(b, b + 10):
-        for j in range(a, a + 10):
-            white_board[i][j] = 1
- 
-cnt = 0
-for i in range(100):
-    for j in range(100):
-        if white_board[i][j]:
-            cnt += 1
- 
-print(cnt)
+x = int(input())
+num_list = []
+for i in range(x):
+    num_list.append(int(input()))
+num_list1 = sorted(num_list)
+for i in range(len(num_list)):
+    print(num_list1[i])
