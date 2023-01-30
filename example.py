@@ -1,3 +1,4 @@
+#baekjoon_2587
 x = [] 
 
 for i in range(5):
