@@ -1,7 +1,9 @@
-x = int(input())
-num_list = []
-for i in range(x):
-    num_list.append(int(input()))
-num_list1 = sorted(num_list)
-for i in range(len(num_list)):
-    print(num_list1[i])
+x = [] 
+
+for i in range(5):
+    x.append(int(input()))
+
+x.sort() #x정렬
+
+print(int(sum(x)/5)) #평균
+print(x[2]) #중앙값
