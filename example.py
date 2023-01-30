@@ -1,16 +1,34 @@
-# 1부터 10,000까지 숫자 중 생성자가 있는 숫자를 제외한 셀프 넘버를 출력하는 문제
-# 생성자가 있는 숫자의 리스트(또는 집합)를 먼저 생성
-# 1부터 10,000까지의 숫자 범위에서 생성자가 있는 숫자를 제거
+#baekjoon_2587
+x = [] 
 
-numbers = list(range(1, 10_001))
-remove_list = []  # 이후에 삭제할 숫자 list
-for num in numbers :
-    for n in str(num):
-        num += int(n)  # 생성자가 있는 숫자
-    if num <= 10_000:  # 10,000보다 작거나 같을 때만,
-        remove_list.append(num)  # append: 리스트에 요소를 추가할 때
+for i in range(5):
+    x.append(int(input()))
 
-for remove_num in set(remove_list) :  # set 으로 중복값 제거
-    numbers.remove(remove_num)
-for self_num in numbers :  # 생성자가 있는 숫자를 삭제한 리스트
-    print(self_num)
+x.sort() #x정렬
+
+print(int(sum(x)/5)) #평균
+print(x[2]) #중앙값
+
+#baekjoon_25305
+
+n,k = map(int,input().split())
+scores = list(map(int,input().split()))
+scores.sort(reverse=True) #내림차순 정렬
+print(scores[k-1])
+
+#baekjoon_1181
+
+n = int(input())
+lst = []
+
+for i in range(n):
+    lst.append(input())
+
+set_lst = set(lst)	# set으로 변환해서 중복값을 제거
+lst = list(set_lst)	# 다시 list로 변환
+
+lst.sort()
+lst.sort(key = len)
+
+for i in lst:
+    print(i)
