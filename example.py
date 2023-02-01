@@ -1,12 +1,21 @@
-n = int(input())
-member_lst = []
+from collections import Counter
 
-for i in range(n):
-    age, name = map(str, input().split())
-    age = int(age)
-    member_lst.append((age, name))
+numbers = []
+for _ in range(int(input())):
+    num = int(input())
+    numbers.append(num)
 
-member_lst.sort(key = lambda x : x[0])	## (age, name)에서 age만 비교
+numbers.sort()
 
-for i in member_lst:
-    print(i[0], i[1])
+cnt = Counter(numbers).most_common(2)
+
+print(round(sum(numbers) / len(numbers)))
+print(numbers[len(numbers) // 2])
+if len(numbers) > 1:
+    if cnt[0][1] == cnt[1][1]:
+        print(cnt[1][0])
+    else:
+        print(cnt[0][0])
+else:
+    print(cnt[0][0])
+print(max(numbers) - min(numbers))
