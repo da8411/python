@@ -1,13 +1,13 @@
-n, m = map(int, input().split())
-num = list(map(int, input().split()))
-l = len(num)
-ans = 0
-for i in range(0, l-2):
-    for j in range(i+1, l-1):
-        for k in range(j+1, l):
-            if(num[i] + num[j] + num[k] > m):
-                continue
-            else:
-                ans = max(ans ,num[i] + num[j] + num[k])
+num_student = int(input())
+student_list = []
 
-print(ans)
+for _ in range(num_student):
+    weight, height = map(int, input().split())
+    student_list.append((weight, height))
+
+for i in student_list:
+    rank = 1
+    for j in student_list:
+        if i[0] < j[0] and i[1] < j[1]:
+                rank += 1
+    print(rank, end = " ")
