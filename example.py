@@ -1,13 +1,11 @@
-num_student = int(input())
-student_list = []
+N, K = map(int, input().split()) 
+coin_lst = list()
+for i in range(N):
+    coin_lst.append(int(input()))
 
-for _ in range(num_student):
-    weight, height = map(int, input().split())
-    student_list.append((weight, height))
+count = 0
+for i in reversed(range(N)):
+    count += K//coin_lst[i] #카운트 값에 K를 동전으로 나눈 몫을 더해줌
+    K = K%coin_lst[i] # K는 동전으로 나눈 나머지로 계속 반복
 
-for i in student_list:
-    rank = 1
-    for j in student_list:
-        if i[0] < j[0] and i[1] < j[1]:
-                rank += 1
-    print(rank, end = " ")
+print(count)
