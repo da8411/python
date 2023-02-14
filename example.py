@@ -1,8 +1,12 @@
+def hanoi_tower(n, start, end) :
+    if n == 1 :
+        print(start, end)
+        return
+       
+    hanoi_tower(n-1, start, 6-start-end) # 1단계
+    print(start, end) # 2단계
+    hanoi_tower(n-1, 6-start-end, end) # 3단계
+    
 n = int(input())
-s = list(map(int, input().split()))
-num = 0
-s.sort()
-for i in range(n):
-    for j in range(i + 1):
-        num += s[j]
-print(num)
+print(2**n-1)
+hanoi_tower(n, 1, 3)
