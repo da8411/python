@@ -1,34 +1,39 @@
-n, c = map(int, input().split())
+# Root node를 찾아주는 함수
+def find(x):
+    if x == parent[x]:
+        return x
+    else:
+        root_x = find(parent[x])
+        parent[x] = root_x
+        return parent[x]
 
-array = []
-for i in range(n):
-    array.append(int(input()))
+# y의 Root 노드가 x의 Root 노드와 같지 않으면 
+# y의 Root 노드가 x의 Root 노드의 자식이 되도록 하는 함수
+def union(x,y):
+    root_x = find(x)
+    root_y = find(y)
 
-array.sort()
+    if root_x!=root_y:
+        parent[root_y] = root_x
+        number[root_x] +=number[root_y]
 
+test_cases = int(input())
 
-def binary_search(array, start, end):
-    while start <= end:
-        mid = (start + end) // 2
-        current = array[0]
-        count = 1
+for _ in range(test_cases):
+    parent = dict()
+    number = dict()
 
-        for i in range(1, len(array)):
-            if array[i] >= current + mid:
-                count += 1
-                current = array[i]
+    f = int(input())
 
-        if count >= c:
-            global answer
-            start = mid + 1
-            answer = mid
-        else:
-            end = mid - 1
-
-
-start = 1
-end = array[-1] - array[0]
-answer = 0
-
-binary_search(array, start, end)
-print(answer)
+    for _ in range(f):
+        x,y = input().split(" ")
+        
+        if x not in parent:
+            parent[x] = x
+            number[x] = 1
+        if y not in parent:
+            parent[y] = y
+            number[y] = 1
+        
+        union (x,y)
+        print(number[find(x)])
