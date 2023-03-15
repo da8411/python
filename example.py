@@ -1,26 +1,29 @@
 import sys
-from collections import deque
+input = sys.stdin.readline
 
-n, m = map(int, sys.stdin.readline().split())
+n = int(input())
+lines = []
 
-graph = [[] for _ in range(n+1)]
-inDegree = [0 for _ in range(n+1)]
-queue = deque()
-answer = []
+for _ in range(n):
+    lines.append(tuple(map(int, input().split())))
 
-for i in range(m):
-    a, b = map(int, sys.stdin.readline().rstrip().split())
-    graph[a].append(b)
-    inDegree[b] += 1
+lines.sort()
 
-for i in range(1, n+1):
-    if inDegree[i] == 0:
-        queue.append(i)
+left = lines[0][0]
+right = lines[0][1]
+ans = 0
 
-while queue:
-    tmp = queue.popleft()
-    answer.append(tmp)
-    for i in graph[tmp]:
-        inDegree[i] -= 1
-        if inDegree[i] == 0:
-            queue.append(i)
+for i in range(1, n):
+    if right >= lines[i][1]:
+        continue
+    
+    elif lines[i][0] <= right < lines[i][1]:
+        right = lines[i][1]
+    
+    elif right < lines[i][0]:
+        ans += right - left
+        left = lines[i][0]
+        right = lines[i][1]
+
+ans += right - left
+print(ans)
