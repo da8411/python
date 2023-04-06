@@ -1,29 +1,27 @@
-import sys
-input = sys.stdin.readline
-
-n = int(input())
-lines = []
-
-for _ in range(n):
-    lines.append(tuple(map(int, input().split())))
-
-lines.sort()
-
-left = lines[0][0]
-right = lines[0][1]
-ans = 0
-
-for i in range(1, n):
-    if right >= lines[i][1]:
-        continue
+def do_yo_wanna_build_a_snowman(N, snowballs):
+    height_diff = 9999999999
     
-    elif lines[i][0] <= right < lines[i][1]:
-        right = lines[i][1]
-    
-    elif right < lines[i][0]:
-        ans += right - left
-        left = lines[i][0]
-        right = lines[i][1]
+    for i in range(N):
+        for j in range(i + 3, N):
+            snowman1 = snowballs[i] + snowballs[j]
+            left, right = i + 1, j - 1
 
-ans += right - left
-print(ans)
+            while left < right:
+                snowman2 = snowballs[left] + snowballs[right]
+                if abs(snowman2 - snowman1) < height_diff:
+                    height_diff = abs(snowman2 - snowman1)
+
+                if snowman2 < snowman1:
+                    left += 1
+                elif snowman2 > snowman1:
+                    right -= 1
+                else:
+                    return 0
+
+    return height_diff
+
+
+if __name__ == "__main__":
+    N = int(input())
+    snowballs = sorted(list(map(int,input().split())))
+    print(do_yo_wanna_build_a_snowman(N, snowballs))
