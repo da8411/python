@@ -1,27 +1,13 @@
-def do_yo_wanna_build_a_snowman(N, snowballs):
-    height_diff = 9999999999
-    
-    for i in range(N):
-        for j in range(i + 3, N):
-            snowman1 = snowballs[i] + snowballs[j]
-            left, right = i + 1, j - 1
+import sys
 
-            while left < right:
-                snowman2 = snowballs[left] + snowballs[right]
-                if abs(snowman2 - snowman1) < height_diff:
-                    height_diff = abs(snowman2 - snowman1)
+iter_num = int(sys.stdin.readline())
+budget = []
 
-                if snowman2 < snowman1:
-                    left += 1
-                elif snowman2 > snowman1:
-                    right -= 1
-                else:
-                    return 0
+for i in range(iter_num):
+    x = int(sys.stdin.readline())
+    if x == 0:
+        budget.pop()
+    else:
+        budget.append(x)
 
-    return height_diff
-
-
-if __name__ == "__main__":
-    N = int(input())
-    snowballs = sorted(list(map(int,input().split())))
-    print(do_yo_wanna_build_a_snowman(N, snowballs))
+print(sum(budget))
