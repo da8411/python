@@ -1,24 +1,19 @@
-import sys, heapq
+import sys
 
-min_heap = []
-max_heap = []
-n = int(sys.stdin.readline())
-for i in range(n):
-	num = int(sys.stdin.readline())
-	if num > 0: # 양수일 때 최소 힙
-		heapq.heappush(min_heap, num) 
-	elif num < 0: # 음수일 때 최대 힙
-		heapq.heappush(max_heap, -num) 
-	else:
-		if min_heap: # 최소 힙에 값이 존재하고
-			if max_heap: # 맥스 힙에도 값이 존재할 때
-				if min_heap[0] < max_heap[0]: # 최소 힙이 더 작은 경우에는
-					print(heapq.heappop(min_heap)) # 최소 힙 출력
-				else: # 최대 힙이 더 작은 경우에는
-					print(-heapq.heappop(max_heap)) # 최대 힙 * -1 출력
-			else: # 최소 힙만 존재할 때 
-				print(heapq.heappop(min_heap)) # 최소 힙 출력
-		elif max_heap: # 최대 힙만 존재할 때
-			print(-heapq.heappop(max_heap)) # 최대 힙 출력
-		else: # 둘 다 존재하지 않을 때
-			print(0)
+input = sys.stdin.readline
+
+n, m = map(int, input().split())
+graph = []
+
+for _ in range(n):
+    graph.append(list(map(int, input().split())))
+
+pre_sum = [[0] * (n + 1) for _ in range(n +  1)]
+
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        pre_sum[i][j] = pre_sum[i][j - 1] + pre_sum[i - 1][j] + graph[i - 1][j - 1] - pre_sum[i - 1][j - 1]
+
+for _ in range(m):
+    x1, y1, x2, y2 = map(int, input().split())
+    print(pre_sum[x2][y2] - pre_sum[x2][y1 - 1] - pre_sum[x1 - 1][y2] + pre_sum[x1 - 1][y1 - 1])
