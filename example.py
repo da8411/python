@@ -1,19 +1,23 @@
 import sys
-
 input = sys.stdin.readline
+sys.maxsize
 
-n, m = map(int, input().split())
-graph = []
+def minimal_board(color):
+    prefix_sum = [[0] * (M + 1) for _ in range(N + 1)]
+    for i in range(N):
+        for j in range(M):
+            if (i + j) % 2 == 0: 
+                value = board[i][j] != color
+            else:
+                value = board[i][j] == color
+            prefix_sum[i + 1][j + 1] = prefix_sum[i][j + 1] + prefix_sum[i + 1][j] - prefix_sum[i][j] + value
+    
+    count = sys.maxsize
+    for i in range(1, N - K + 2):
+        for j in range(1, M - K + 2):
+            count = min(count, prefix_sum[i + K - 1][j + K - 1] - prefix_sum[i + K - 1][j - 1] - prefix_sum[i - 1][j + K - 1] + prefix_sum[i - 1][j - 1])
+    return count
 
-for _ in range(n):
-    graph.append(list(map(int, input().split())))
-
-pre_sum = [[0] * (n + 1) for _ in range(n +  1)]
-
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        pre_sum[i][j] = pre_sum[i][j - 1] + pre_sum[i - 1][j] + graph[i - 1][j - 1] - pre_sum[i - 1][j - 1]
-
-for _ in range(m):
-    x1, y1, x2, y2 = map(int, input().split())
-    print(pre_sum[x2][y2] - pre_sum[x2][y1 - 1] - pre_sum[x1 - 1][y2] + pre_sum[x1 - 1][y1 - 1])
+N, M, K = map(int, input().split())
+board = [list(input()) for _ in range(N)]
+print(min(minimal_board('B'), minimal_board('W')))
