@@ -1,23 +1,22 @@
-import sys
-input = sys.stdin.readline
-sys.maxsize
+#include <bits/stdc++.h>
+using namespace std;
 
-def minimal_board(color):
-    prefix_sum = [[0] * (M + 1) for _ in range(N + 1)]
-    for i in range(N):
-        for j in range(M):
-            if (i + j) % 2 == 0: 
-                value = board[i][j] != color
-            else:
-                value = board[i][j] == color
-            prefix_sum[i + 1][j + 1] = prefix_sum[i][j + 1] + prefix_sum[i + 1][j] - prefix_sum[i][j] + value
-    
-    count = sys.maxsize
-    for i in range(1, N - K + 2):
-        for j in range(1, M - K + 2):
-            count = min(count, prefix_sum[i + K - 1][j + K - 1] - prefix_sum[i + K - 1][j - 1] - prefix_sum[i - 1][j + K - 1] + prefix_sum[i - 1][j - 1])
-    return count
+#define FASTIO cin.tie(0); cout.tie(0); ios_base::sync_with_stdio(0);
+#define FOR(i,a,b) for(int i=(a);i<=(b);i++)
+#define ROF(i,a,b) for(int i=(a);i>=(b);i--)
+#define ll long long int
+#define pii pair<int, int>
+#define PQ priority_queue
+#define LEN(v) int(v.size())
+#define ALL(v) v.begin(),v.end()
+#define INF 2e9
+#define LINF 1e18
 
-N, M, K = map(int, input().split())
-board = [list(input()) for _ in range(N)]
-print(min(minimal_board('B'), minimal_board('W')))
+int main() {
+	FASTIO;
+	int N;
+	cin >> N;
+	cout << (1 << N);
+
+	return 0;
+}
