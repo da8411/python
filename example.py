@@ -1,3 +1,4 @@
+
 # 백준 2206번 벽 부수고 이동하기
 from sys import stdin
 from collections import deque
@@ -52,3 +53,4 @@ if result:
     print(result)
 else:
     print(-1)
+
