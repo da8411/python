@@ -1,25 +1,22 @@
-# 평균값 구하기
-# 10개의 수를 입력 받아, 평균값을 출력하는 프로그램 (소수점 첫째 자리에서 반올림한 정수 출력)
-# 각 수는 0 이상 10000 이하의 정수
-# 가장 첫 줄에는 테스트 케이스의 개수 T가 주어지고, 그 아래로 각 테스트 케이스
-# 각 테스트 케이스의 첫 번째 줄에는 10개의 수가 주어진다.
-# 출력의 각 줄은 '#t'로 시작하고, 공백을 한 칸 둔 다음 정답을 출력
-
 T = int(input())
+# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 for test_case in range(1, T + 1):
-    num = list(map(int, input().split()))
-    avg = sum(num) / len(num)
-    avg_num = round(avg)
-    print('#{} {}'.format(test_case, avg_num))
-
-
-#2070
-T = int(input())
-for test_case in range(1, T + 1):
-    a,b=map(int, input().split())
-    if a>b:
-        print(f"#{test_case} > ")
-    elif a<b:
-        print(f"#{test_case} < ")
-    else:
-        print(f"#{test_case} = ")
+    num = int(input())
+    a=0;b=0;c=0;d=0;e=0
+    while(num !=1):
+        if (num % 11) == 0 :
+            e+=1
+            num = num / 11
+        elif (num % 7) == 0:
+            d+=1
+            num = num / 7
+        elif (num % 5) == 0:
+            c+=1
+            num = num / 5
+        elif (num % 3) == 0:
+            b+=1
+            num = num / 3
+        elif (num % 2) == 0:
+            a+=1
+            num = num / 2
+    print(f"#{test_case} {a} {b} {c} {d} {e}")
