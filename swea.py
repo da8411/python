@@ -1,10 +1,11 @@
-T = int(input())
-# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
-for test_case in range(1, T + 1):
-    N = int(input())
-    print("#{} ".format(test_case), end='')
-    i = 0
-    while i < N:    
-        print("1/{} ".format(N), end='')
-        i+=1
-    print(" ")
+for test_case in range(1, 11):
+    N, N_list= input().split()
+    N = int(N)
+    new_list = []
+
+    for i in N_list:
+        if new_list and i == new_list[-1]:
+            new_list.pop()
+        else:
+            new_list.append(i)
+    print("#{} {}".format(test_case, ''.join(new_list)))
