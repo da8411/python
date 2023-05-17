@@ -1,30 +1,10 @@
-for test_case in range(1, 11):
-    length = int(input())
-    board = []
-    for i in range(8) :
-        board.append(input())
-
-    count = 0
-    # 가로줄
-    for i in range(8) :
-        for j in range(9-length) :
-            answer = 1
-            for k in range(length//2) :
-                if board[i][j+k] == board[i][j+length-k-1] :
-                    answer *= 1
-                else :
-                    answer *= 0
-            if answer == 1 :
-                count += 1
-    # 세로줄
-    for i in range(9-length) :
-        for j in range(8) :
-            answer = 1
-            for k in range(length//2) :
-                if board[i+k][j] == board[i+length-k-1][j] :
-                    answer *= 1
-                else :
-                    answer *= 0
-            if answer == 1 :
-                count += 1
-    print("#{} {}".format(test_case, count))
+T = int(input())
+# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
+for test_case in range(1, T + 1):
+    N = int(input())
+    print("#{} ".format(test_case), end='')
+    i = 0
+    while i < N:    
+        print("1/{} ".format(N), end='')
+        i+=1
+    print(" ")
