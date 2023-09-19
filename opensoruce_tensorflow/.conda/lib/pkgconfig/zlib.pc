@@ -1,0 +1,13 @@
+prefix=/Users/dajineyland/github/opensoruce_tensorflow/.conda
+exec_prefix=/Users/dajineyland/github/opensoruce_tensorflow/.conda
+libdir=/Users/dajineyland/github/opensoruce_tensorflow/.conda/lib
+sharedlibdir=/Users/dajineyland/github/opensoruce_tensorflow/.conda/lib
+includedir=/Users/dajineyland/github/opensoruce_tensorflow/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+[Info  - 7:04:24 AM] (59235) Pylance language server 2023.4.20 (pyright 64a33975) starting
+[Info  - 7:04:25 AM] (59235) Server root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 7:04:25 AM] (59235) Starting service instance "protobuf"
+[Info  - 7:04:25 AM] (59235) Auto-indent enabled
+[Info  - 7:04:25 AM] (59235) Setting pythonPath for service "protobuf": "/bin/python3.8"
+[Warn  - 7:04:25 AM] (59235) stubPath /usr/local/lib/python3.8/dist-packages/google/protobuf/typings is not a valid directory.
+[Info  - 7:04:25 AM] (59235) Assuming Python version 3.8
+[Info  - 7:04:26 AM] (59235) Found 47 source files
+[Info  - 7:04:27 AM] (59235) Background analysis(1) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 7:04:27 AM] (59235) Background analysis(1) started

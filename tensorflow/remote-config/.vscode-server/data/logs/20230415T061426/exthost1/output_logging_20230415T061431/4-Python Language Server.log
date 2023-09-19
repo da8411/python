@@ -1,0 +1,21 @@
+[Info  - 6:14:44 AM] (894) Pylance language server 2023.4.20 (pyright 64a33975) starting
+[Info  - 6:14:44 AM] (894) Server root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 6:14:44 AM] (894) Starting service instance "protobuf"
+[Info  - 6:14:44 AM] (894) Auto-indent enabled
+[Info  - 6:14:45 AM] (894) Setting pythonPath for service "protobuf": "/bin/python3.8"
+[Warn  - 6:14:45 AM] (894) stubPath /usr/local/lib/python3.8/dist-packages/google/protobuf/typings is not a valid directory.
+[Info  - 6:14:45 AM] (894) Assuming Python version 3.8
+[Info  - 6:14:46 AM] (894) Found 47 source files
+[Info  - 6:14:51 AM] (894) Background analysis(1) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 6:14:51 AM] (894) Background analysis(1) started
+[Info  - 6:14:51 AM] (894) Indexer background runner(2) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist (index)
+[Info  - 6:14:51 AM] (894) Indexing(2) started
+[Info  - 6:14:54 AM] (894) [IDX(2)] Long operation: scan packages /usr/local/lib/python3.8/dist-packages/google/protobuf (5808ms)
+[Info  - 6:14:54 AM] (894) scanned(2) 81 files over 1 exec env
+[Info  - 6:14:56 AM] (894) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.8/dist-packages/google/protobuf/internal/python_message.py (5608ms)
+[Info  - 6:15:11 AM] (894) [IDX(2)] Long operation: index execution environment /usr/local/lib/python3.8/dist-packages/google/protobuf (16292ms)
+[Info  - 6:15:11 AM] (894) [IDX(2)] Long operation: index packages /usr/local/lib/python3.8/dist-packages/google/protobuf (16396ms)
+[Info  - 6:15:11 AM] (894) indexed(2) 48 files over 1 exec env
+[Info  - 6:15:11 AM] (894) Indexing finished(2).
+[Info  - 6:15:41 AM] (894) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/text_format.py (6298ms)
+[Info  - 6:15:41 AM] (894) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/text_format.py (6679ms)

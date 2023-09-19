@@ -1,0 +1,10 @@
+[Info  - 7:26:59 AM] (3577) Pylance language server 2023.4.20 (pyright 64a33975) starting
+[Info  - 7:27:00 AM] (3577) Server root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 7:27:00 AM] (3577) Starting service instance "dajinbabo"
+[Info  - 7:27:00 AM] (3577) Auto-indent enabled
+[Info  - 7:27:00 AM] (3577) Setting pythonPath for service "dajinbabo": "/bin/python3.8"
+[Warn  - 7:27:00 AM] (3577) stubPath /home/dajinbabo/typings is not a valid directory.
+[Info  - 7:27:00 AM] (3577) Assuming Python version 3.8
+[Info  - 7:27:01 AM] (3577) Found 1 source file
+[Info  - 7:27:02 AM] (3577) Background analysis(1) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 7:27:02 AM] (3577) Background analysis(1) started

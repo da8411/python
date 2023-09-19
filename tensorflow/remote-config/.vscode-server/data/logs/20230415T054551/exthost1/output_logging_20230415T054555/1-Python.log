@@ -1,0 +1,8 @@
+Experiment 'pythonPromptNewToolsExt' is active
+Experiment 'pythonSurveyNotificationcf' is active
+> conda info --json
+Python interpreter path: /bin/python3.8
+> /bin/python -I /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /bin/python3.8 -I /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+[ERROR 2023-3-15 5:46:9.775]: Unable to identify shell /bin/sh  for OS  Linux

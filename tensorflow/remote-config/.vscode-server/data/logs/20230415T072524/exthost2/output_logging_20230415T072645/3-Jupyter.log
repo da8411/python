@@ -1,0 +1,16 @@
+Visual Studio Code (1.77.3, attached-container, desktop)
+Jupyter Extension Version: 2023.3.1201040234.
+Python Extension Version: 2023.6.0.
+Workspace folder /home/dajinbabo
+info 07:26:49.426: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 07:26:51.132: LSP Notebooks experiment is enabled
+warn 07:26:56.119: Failed to get activated env vars for /bin/python3.8 in 988ms
+info 07:26:56.176: Process Execution: > /bin/python3.8 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python3.8 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 07:26:56.465: Process Execution: > /bin/python3.8 -m pip list
+> /bin/python3.8 -m pip list
+info 07:29:31.963: Shutting down notebooks for 2d5282aa-1ec2-411c-8b40-ad09a358c4c7
+info 07:29:31.965: Disposing HostJupyterExecution 917448bc-b627-4f5d-98aa-390f62b2b5bc
+info 07:29:31.968: Disposing HostJupyterExecution 917448bc-b627-4f5d-98aa-390f62b2b5bc

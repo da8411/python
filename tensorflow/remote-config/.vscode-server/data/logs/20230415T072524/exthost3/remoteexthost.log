@@ -1,0 +1,11 @@
+2023-04-15 08:02:37.785 [info] Extension host with pid 9125 started
+2023-04-15 08:02:38.153 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-15 08:02:38.205 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': Lock acquired.
+2023-04-15 08:02:38.491 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-15 08:02:38.493 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-15 08:02:39.168 [info] Eager extensions activated
+2023-04-15 08:02:39.170 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-15 08:02:39.174 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-15 08:02:54.261 [info] Extension host terminating: received terminate message from renderer
+2023-04-15 08:02:54.275 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-15 08:02:54.305 [info] Extension host with pid 9125 exiting with code 0

@@ -1,0 +1,35 @@
+[Info  - 5:54:48 AM] (6922) Pylance language server 2023.4.20 (pyright 64a33975) starting
+[Info  - 5:54:48 AM] (6922) Server root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 5:54:48 AM] (6922) Starting service instance "protobuf"
+[Info  - 5:54:48 AM] (6922) Auto-indent enabled
+[Info  - 5:54:48 AM] (6922) Setting pythonPath for service "protobuf": "/bin/python3.8"
+[Warn  - 5:54:48 AM] (6922) stubPath /usr/local/lib/python3.8/dist-packages/google/protobuf/typings is not a valid directory.
+[Info  - 5:54:49 AM] (6922) Assuming Python version 3.8
+[Info  - 5:54:50 AM] (6922) Found 47 source files
+[Info  - 5:54:52 AM] (6922) Background analysis(1) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 5:54:52 AM] (6922) Background analysis(1) started
+[Info  - 5:54:52 AM] (6922) Indexer background runner(2) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist (index)
+[Info  - 5:54:52 AM] (6922) Indexing(2) started
+[Info  - 5:54:56 AM] (6922) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.8/dist-packages/google/protobuf/any_pb2.py (3258ms)
+[Info  - 5:54:57 AM] (6922) [IDX(2)] Long operation: scan packages /usr/local/lib/python3.8/dist-packages/google/protobuf (5450ms)
+[Info  - 5:54:57 AM] (6922) scanned(2) 81 files over 1 exec env
+[Info  - 5:54:59 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/api_pb2.py (2802ms)
+[Info  - 5:54:59 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/api_pb2.py (2872ms)
+[Info  - 5:55:08 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor_pb2.py (6200ms)
+[Info  - 5:55:08 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor_pb2.py (6829ms)
+[Info  - 5:55:12 AM] (6922) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor_pb2.py (3926ms)
+[Info  - 5:55:17 AM] (6922) [IDX(2)] Long operation: index execution environment /usr/local/lib/python3.8/dist-packages/google/protobuf (18881ms)
+[Info  - 5:55:17 AM] (6922) [IDX(2)] Long operation: index packages /usr/local/lib/python3.8/dist-packages/google/protobuf (18987ms)
+[Info  - 5:55:17 AM] (6922) indexed(2) 48 files over 1 exec env
+[Info  - 5:55:17 AM] (6922) Indexing finished(2).
+[Info  - 5:56:28 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor.py (5986ms)
+[Info  - 5:56:28 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor.py (5994ms)
+[Info  - 5:56:38 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/text_format.py (4402ms)
+[Info  - 5:56:38 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/text_format.py (4760ms)
+[Info  - 6:01:56 AM] (6922) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor_pb2.py (2641ms)
+[Info  - 6:02:02 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor_pool.py (2368ms)
+[Info  - 6:02:02 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/descriptor_pool.py (2771ms)
+[Info  - 6:02:17 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/json_format.py (3445ms)
+[Info  - 6:02:17 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/json_format.py (3445ms)
+[Info  - 6:02:55 AM] (6922) [BG(1)] Long operation: checking: /usr/local/lib/python3.8/dist-packages/google/protobuf/internal/python_message.py (2441ms)
+[Info  - 6:02:55 AM] (6922) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.8/dist-packages/google/protobuf/internal/python_message.py (2442ms)

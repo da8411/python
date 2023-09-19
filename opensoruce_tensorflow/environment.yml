@@ -1,0 +1,33 @@
+name: tut-tf-env
+channels:
+  - apple
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h620ffc9_4
+  - ca-certificates=2023.01.10=hca03da5_0
+  - certifi=2022.12.7=py310hca03da5_0
+  - libffi=3.4.2=hca03da5_6
+  - ncurses=6.4=h313beb8_0
+  - openssl=1.1.1t=h1a28f6b_0
+  - pip=23.0.1=py310hca03da5_0
+  - python=3.10.10=hc0d8a6c_2
+  - readline=8.2=h1a28f6b_0
+  - setuptools=65.6.3=py310hca03da5_0
+  - sqlite=3.41.2=h80987f9_0
+  - tk=8.6.12=hb8d0fd4_0
+  - tzdata=2023c=h04d1e81_0
+  - wheel=0.38.4=py310hca03da5_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+  - tensorflow-deps=2.9.0=0
+  - pip:
+      - tensorflow-macos==2.13.0rc1
+      - tensorflow-metal==0.8.0
+      - tensorflow-hub==0.13.0
+      - numpy==1.23.5
+      - pillow==9.5.0
+      - matplotlib==3.7.1
+      - pandas==2.0.1
+      - opencv-python==4.7.0.72
+      - pydot
+      - mat73==0.60

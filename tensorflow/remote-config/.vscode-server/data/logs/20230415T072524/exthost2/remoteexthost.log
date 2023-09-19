@@ -1,0 +1,20 @@
+2023-04-15 07:26:45.785 [info] Extension host with pid 2920 started
+2023-04-15 07:26:45.809 [error] Error: EEXIST: file already exists, open '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock'
+2023-04-15 07:26:46.018 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-04-15 07:26:46.115 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-15 07:26:46.121 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-15 07:26:46.125 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-15 07:26:48.691 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-15 07:26:48.810 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': The pid 2704 appears to be gone.
+2023-04-15 07:26:48.811 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': Deleting a stale lock.
+2023-04-15 07:26:48.848 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': Lock acquired.
+2023-04-15 07:26:51.111 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-15 07:26:51.412 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-15 07:26:51.415 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-15 07:26:52.780 [info] Eager extensions activated
+2023-04-15 07:26:52.784 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-15 07:26:52.788 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-15 07:26:53.457 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-04-15 07:29:31.810 [info] Extension host terminating: received terminate message from renderer
+2023-04-15 07:29:31.821 [info] Lock '/home/dajinbabo/remote-config/.vscode-server/data/User/workspaceStorage/53126a9a6caaeabdfa7b64878585b226/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-15 07:29:32.095 [info] Extension host with pid 2920 exiting with code 0

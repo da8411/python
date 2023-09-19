@@ -1,0 +1,39 @@
+{
+  "build": "py310hdb36b11_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libcxx >=12.0.0",
+    "libopenblas >=0.3.17,<1.0a0",
+    "numpy-base 1.22.3 py310h5e3e9f0_0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/Users/dajineyland/miniconda3/pkgs/numpy-1.22.3-py310hdb36b11_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.22.3-py310hdb36b11_0.conda",
+  "legacy_bz2_md5": "8a69e91c9dc624625cc7f7c338f13588",
+  "legacy_bz2_size": 10742,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/dajineyland/miniconda3/pkgs/numpy-1.22.3-py310hdb36b11_0",
+    "type": 1
+  },
+  "md5": "df191e83049789dee1573dd2f497dd03",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/dajineyland/miniconda3/pkgs/numpy-1.22.3-py310hdb36b11_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "031743a4ddaa4fa45055319c4eb20cfb68aa0d5089b8177f84c7b3243e2cc47f",
+  "size": 10962,
+  "subdir": "osx-arm64",
+  "timestamp": 1652802529870,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/numpy-1.22.3-py310hdb36b11_0.conda",
+  "version": "1.22.3"
+}

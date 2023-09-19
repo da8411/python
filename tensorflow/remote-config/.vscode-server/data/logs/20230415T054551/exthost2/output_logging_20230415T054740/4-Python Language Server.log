@@ -1,0 +1,19 @@
+[Info  - 5:47:53 AM] (4102) Pylance language server 2023.4.20 (pyright 64a33975) starting
+[Info  - 5:47:53 AM] (4102) Server root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 5:47:53 AM] (4102) Starting service instance "protobuf"
+[Info  - 5:47:53 AM] (4102) Auto-indent enabled
+[Info  - 5:47:54 AM] (4102) Setting pythonPath for service "protobuf": "/bin/python3.8"
+[Warn  - 5:47:54 AM] (4102) stubPath /usr/local/lib/python3.8/dist-packages/google/protobuf/typings is not a valid directory.
+[Info  - 5:47:54 AM] (4102) Assuming Python version 3.8
+[Info  - 5:47:55 AM] (4102) Found 47 source files
+[Info  - 5:47:58 AM] (4102) Background analysis(1) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist
+[Info  - 5:47:58 AM] (4102) Background analysis(1) started
+[Info  - 5:47:58 AM] (4102) Indexer background runner(2) root directory: /home/dajinbabo/remote-config/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.20/dist (index)
+[Info  - 5:47:58 AM] (4102) Indexing(2) started
+[Info  - 5:48:02 AM] (4102) [IDX(2)] Long operation: scan packages /usr/local/lib/python3.8/dist-packages/google/protobuf (4886ms)
+[Info  - 5:48:02 AM] (4102) scanned(2) 81 files over 1 exec env
+[Info  - 5:48:03 AM] (4102) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.8/dist-packages/google/protobuf/any_pb2.py (5530ms)
+[Info  - 5:48:18 AM] (4102) [IDX(2)] Long operation: index execution environment /usr/local/lib/python3.8/dist-packages/google/protobuf (15166ms)
+[Info  - 5:48:18 AM] (4102) [IDX(2)] Long operation: index packages /usr/local/lib/python3.8/dist-packages/google/protobuf (15278ms)
+[Info  - 5:48:18 AM] (4102) indexed(2) 48 files over 1 exec env
+[Info  - 5:48:18 AM] (4102) Indexing finished(2).
