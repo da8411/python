@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/dajineyland/github/android/app/.cxx/Debug/4a6z6t2z/arm64-v8a'
+ninja: no work to do.

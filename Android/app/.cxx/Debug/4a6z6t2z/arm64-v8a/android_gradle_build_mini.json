@@ -1,0 +1,55 @@
+{
+  "buildFiles": [
+    "/Users/dajineyland/github/android/app/src/main/cc/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/dajineyland/Library/Android/sdk/cmake/3.6.4111459/bin/ninja",
+      "-C",
+      "/Users/dajineyland/github/android/app/.cxx/Debug/4a6z6t2z/arm64-v8a",
+      "-t",
+      "clean"
+    ]
+  ],
+  "libraries": {
+    "SuperResolution": {
+      "artifactName": "SuperResolution",
+      "buildCommandComponents": [
+        "/Users/dajineyland/Library/Android/sdk/cmake/3.6.4111459/bin/ninja",
+        "-C",
+        "/Users/dajineyland/github/android/app/.cxx/Debug/4a6z6t2z/arm64-v8a",
+        "/Users/dajineyland/github/android/app/build/intermediates/cxx/Debug/4a6z6t2z/obj/arm64-v8a/libSuperResolution.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/dajineyland/github/android/app/build/intermediates/cxx/Debug/4a6z6t2z/obj/arm64-v8a/libSuperResolution.so",
+      "runtimeFiles": [
+        "/Users/dajineyland/github/android/libraries/tensorflowlite/jni/arm64-v8a/libtensorflowlite_jni.so",
+        "/Users/dajineyland/github/android/libraries/tensorflowlite-gpu/jni/arm64-v8a/libtensorflowlite_gpu_jni.so"
+      ]
+    },
+    "tensorflowlite_gpu_jni": {
+      "artifactName": "tensorflowlite_gpu_jni",
+      "buildCommandComponents": [
+        "/Users/dajineyland/Library/Android/sdk/cmake/3.6.4111459/bin/ninja",
+        "-C",
+        "/Users/dajineyland/github/android/app/.cxx/Debug/4a6z6t2z/arm64-v8a",
+        "/Users/dajineyland/github/android/app/src/main/cc/../../../../libraries/tensorflowlite-gpu/jni/arm64-v8a/libtensorflowlite_gpu_jni.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/dajineyland/github/android/libraries/tensorflowlite-gpu/jni/arm64-v8a/libtensorflowlite_gpu_jni.so",
+      "runtimeFiles": []
+    },
+    "tensorflowlite_jni": {
+      "artifactName": "tensorflowlite_jni",
+      "buildCommandComponents": [
+        "/Users/dajineyland/Library/Android/sdk/cmake/3.6.4111459/bin/ninja",
+        "-C",
+        "/Users/dajineyland/github/android/app/.cxx/Debug/4a6z6t2z/arm64-v8a",
+        "/Users/dajineyland/github/android/app/src/main/cc/../../../../libraries/tensorflowlite/jni/arm64-v8a/libtensorflowlite_jni.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/dajineyland/github/android/libraries/tensorflowlite/jni/arm64-v8a/libtensorflowlite_jni.so",
+      "runtimeFiles": []
+    }
+  }
+}

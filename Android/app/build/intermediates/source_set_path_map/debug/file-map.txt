@@ -1,0 +1,16 @@
+org.tensorflow.lite.examples.superresolution.app-jetified-appcompat-resources-1.1.0-0 /Users/dajineyland/.gradle/caches/transforms-3/067cdbbf8a9c8e707188a1e5a688a6bc/transformed/jetified-appcompat-resources-1.1.0/res
+org.tensorflow.lite.examples.superresolution.app-recyclerview-1.0.0-1 /Users/dajineyland/.gradle/caches/transforms-3/26cc31c8341c0969d2d7a8e22692da75/transformed/recyclerview-1.0.0/res
+org.tensorflow.lite.examples.superresolution.app-appcompat-1.1.0-2 /Users/dajineyland/.gradle/caches/transforms-3/3464dc09909c440c786618a9c3cfd48d/transformed/appcompat-1.1.0/res
+org.tensorflow.lite.examples.superresolution.app-transition-1.0.0-3 /Users/dajineyland/.gradle/caches/transforms-3/39d2ef32bc89dbc50b54ef4f330709ae/transformed/transition-1.0.0/res
+org.tensorflow.lite.examples.superresolution.app-coordinatorlayout-1.0.0-4 /Users/dajineyland/.gradle/caches/transforms-3/4d75a1da12403eb67a10105fadc69a80/transformed/coordinatorlayout-1.0.0/res
+org.tensorflow.lite.examples.superresolution.app-cardview-1.0.0-5 /Users/dajineyland/.gradle/caches/transforms-3/70351a5a390d5ef2c2a779436dd5b536/transformed/cardview-1.0.0/res
+org.tensorflow.lite.examples.superresolution.app-material-1.0.0-6 /Users/dajineyland/.gradle/caches/transforms-3/75af66fc31a9f263c3339a889ba04997/transformed/material-1.0.0/res
+org.tensorflow.lite.examples.superresolution.app-core-1.1.0-7 /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/res
+org.tensorflow.lite.examples.superresolution.app-pngs-8 /Users/dajineyland/github/android/app/build/generated/res/pngs/debug
+org.tensorflow.lite.examples.superresolution.app-resValues-9 /Users/dajineyland/github/android/app/build/generated/res/resValues/debug
+org.tensorflow.lite.examples.superresolution.app-rs-10 /Users/dajineyland/github/android/app/build/generated/res/rs/debug
+org.tensorflow.lite.examples.superresolution.app-mergeDebugResources-11 /Users/dajineyland/github/android/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+org.tensorflow.lite.examples.superresolution.app-mergeDebugResources-12 /Users/dajineyland/github/android/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+org.tensorflow.lite.examples.superresolution.app-merged_res-13 /Users/dajineyland/github/android/app/build/intermediates/merged_res/debug
+org.tensorflow.lite.examples.superresolution.app-debug-14 /Users/dajineyland/github/android/app/src/debug/res
+org.tensorflow.lite.examples.superresolution.app-main-15 /Users/dajineyland/github/android/app/src/main/res

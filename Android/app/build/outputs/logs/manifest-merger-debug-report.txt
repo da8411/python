@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/75af66fc31a9f263c3339a889ba04997/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/3464dc09909c440c786618a9c3cfd48d/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e62e1bb7776e4d525d13623afe55805e/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/067cdbbf8a9c8e707188a1e5a688a6bc/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/26cc31c8341c0969d2d7a8e22692da75/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/ca031aca50496e8006945cd8787c8b78/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/77a0b10eacc8424a9522b17a5e585d17/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/b0cfa357a583d098388ce23e2b013728/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/39d2ef32bc89dbc50b54ef4f330709ae/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/249a481cfb966aa2b52bd6f6f561f0ec/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/f18efc72eeb4a395cc746acc992cb1cb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/44c558ca95c25b001d62f89eb546b91d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/0617f8fb69d1e3d95bebc17ccc753f48/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/8a207a4f94d585837452365fad18e6be/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/4d75a1da12403eb67a10105fadc69a80/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/a99795f463226ab129837c5d2a81e462/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/eb002b46421dc3cc8586b3793cf3b48f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/3bdd4328e5e787f023c239a18683abf7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/4d587769b802fc074726f778ebebf7c2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/84b3e0d7f543613f1f44423d25f8d6e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/70351a5a390d5ef2c2a779436dd5b536/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5711409f36c333ae66d52e544f7d0bfe/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/dcaa497a004137da62127fff4ecacb38/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/101c5785289d5e5d764bcfb48024704a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/5e5f23b5f87bf7f9b47b888c0f49f3db/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/d79c24ca83e8384373408e49250cabb9/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/dajineyland/.gradle/caches/transforms-3/63384dfb35d7dd6be4b1ff69b62a351d/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5c8d86cb8bdf26116b29b41e8fb71734/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/d9c7a219a5f1f1e167bd3b8c37ea6ced/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/9006f1a3ec2fd27885f34b635d64a503/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/94b5573840af01f3bc01de62380af5fa/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/0ef0261fe7116a320891e697d0d0d204/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+	package
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+MERGED from [com.google.android.material:material:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/75af66fc31a9f263c3339a889ba04997/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/75af66fc31a9f263c3339a889ba04997/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/3464dc09909c440c786618a9c3cfd48d/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/3464dc09909c440c786618a9c3cfd48d/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e62e1bb7776e4d525d13623afe55805e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e62e1bb7776e4d525d13623afe55805e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/067cdbbf8a9c8e707188a1e5a688a6bc/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/067cdbbf8a9c8e707188a1e5a688a6bc/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/26cc31c8341c0969d2d7a8e22692da75/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/26cc31c8341c0969d2d7a8e22692da75/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/ca031aca50496e8006945cd8787c8b78/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/ca031aca50496e8006945cd8787c8b78/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/77a0b10eacc8424a9522b17a5e585d17/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/77a0b10eacc8424a9522b17a5e585d17/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/b0cfa357a583d098388ce23e2b013728/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/b0cfa357a583d098388ce23e2b013728/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/39d2ef32bc89dbc50b54ef4f330709ae/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/39d2ef32bc89dbc50b54ef4f330709ae/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/249a481cfb966aa2b52bd6f6f561f0ec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/249a481cfb966aa2b52bd6f6f561f0ec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/f18efc72eeb4a395cc746acc992cb1cb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/f18efc72eeb4a395cc746acc992cb1cb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/44c558ca95c25b001d62f89eb546b91d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/44c558ca95c25b001d62f89eb546b91d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/0617f8fb69d1e3d95bebc17ccc753f48/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/0617f8fb69d1e3d95bebc17ccc753f48/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/8a207a4f94d585837452365fad18e6be/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/8a207a4f94d585837452365fad18e6be/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/4d75a1da12403eb67a10105fadc69a80/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/4d75a1da12403eb67a10105fadc69a80/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/a99795f463226ab129837c5d2a81e462/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/a99795f463226ab129837c5d2a81e462/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/eb002b46421dc3cc8586b3793cf3b48f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/eb002b46421dc3cc8586b3793cf3b48f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/3bdd4328e5e787f023c239a18683abf7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/3bdd4328e5e787f023c239a18683abf7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/4d587769b802fc074726f778ebebf7c2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/4d587769b802fc074726f778ebebf7c2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/84b3e0d7f543613f1f44423d25f8d6e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/84b3e0d7f543613f1f44423d25f8d6e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/70351a5a390d5ef2c2a779436dd5b536/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/70351a5a390d5ef2c2a779436dd5b536/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5711409f36c333ae66d52e544f7d0bfe/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5711409f36c333ae66d52e544f7d0bfe/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/dcaa497a004137da62127fff4ecacb38/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/dcaa497a004137da62127fff4ecacb38/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/101c5785289d5e5d764bcfb48024704a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/101c5785289d5e5d764bcfb48024704a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/5e5f23b5f87bf7f9b47b888c0f49f3db/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/5e5f23b5f87bf7f9b47b888c0f49f3db/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/d79c24ca83e8384373408e49250cabb9/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/d79c24ca83e8384373408e49250cabb9/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/dajineyland/.gradle/caches/transforms-3/63384dfb35d7dd6be4b1ff69b62a351d/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/dajineyland/.gradle/caches/transforms-3/63384dfb35d7dd6be4b1ff69b62a351d/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5c8d86cb8bdf26116b29b41e8fb71734/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5c8d86cb8bdf26116b29b41e8fb71734/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/d9c7a219a5f1f1e167bd3b8c37ea6ced/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/d9c7a219a5f1f1e167bd3b8c37ea6ced/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/9006f1a3ec2fd27885f34b635d64a503/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/9006f1a3ec2fd27885f34b635d64a503/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/94b5573840af01f3bc01de62380af5fa/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/94b5573840af01f3bc01de62380af5fa/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/0ef0261fe7116a320891e697d0d0d204/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dajineyland/.gradle/caches/transforms-3/0ef0261fe7116a320891e697d0d0d204/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+	android:targetSdkVersion
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:3:5-17
+		INJECTED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/75af66fc31a9f263c3339a889ba04997/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/dajineyland/.gradle/caches/transforms-3/75af66fc31a9f263c3339a889ba04997/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5711409f36c333ae66d52e544f7d0bfe/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/5711409f36c333ae66d52e544f7d0bfe/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/dajineyland/.gradle/caches/transforms-3/e5c1f844d67eb3d9e41e35519e9928aa/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:11:9-56
+activity#org.tensorflow.lite.examples.superresolution.MainActivity
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:screenOrientation
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:15:13-49
+	android:label
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/dajineyland/github/android/app/src/main/AndroidManifest.xml:18:27-74

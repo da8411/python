@@ -1,0 +1,4 @@
+# ninja log v5
+0	661	0	CMakeFiles/SuperResolution.dir/SuperResolution_jni.cpp.o	6bcb183774006db8
+3	800	0	CMakeFiles/SuperResolution.dir/SuperResolution.cpp.o	3825a903ef356697
+800	981	0	/Users/dajineyland/github/android/app/build/intermediates/cxx/Debug/4a6z6t2z/obj/arm64-v8a/libSuperResolution.so	391c389e645d9a8e

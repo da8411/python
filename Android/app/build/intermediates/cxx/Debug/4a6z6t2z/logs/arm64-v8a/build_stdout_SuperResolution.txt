@@ -1,0 +1,4 @@
+ninja: Entering directory `/Users/dajineyland/github/android/app/.cxx/Debug/4a6z6t2z/arm64-v8a'
+[1/3] Building CXX object CMakeFiles/SuperResolution.dir/SuperResolution_jni.cpp.o
+[2/3] Building CXX object CMakeFiles/SuperResolution.dir/SuperResolution.cpp.o
+[3/3] Linking CXX shared library /Users/dajineyland/github/android/app/build/intermediates/cxx/Debug/4a6z6t2z/obj/arm64-v8a/libSuperResolution.so
